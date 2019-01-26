@@ -1,3 +1,0 @@
-for _host in $(cd /home/evenue/upload/web; ls -d ev* |sed s/" "/,/g|tr '\n' ','|sed 's/,$//' | sed 's/ev94,//g'); do echo $_host; done
-
-cd /home/evenue/upload/web; ls -d ev* |sed s/" "/,/g|tr '\n' ','|sed 's/,$//'| sed 's/ev94,//g'
